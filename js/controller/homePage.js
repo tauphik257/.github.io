@@ -44,6 +44,6 @@ app.controller('MainCtrl', ['$scope', '$interval', '$http', '$timeout', function
                     angular.element(".customSlider_list li").css('width', listWidth);
                 });
             }
-        }, 500);
+        }, 900);
     }]);
 
