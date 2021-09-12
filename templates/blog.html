@@ -1,0 +1,136 @@
+<div class="full_width" ng-controller="BlogCtrl">
+    <div class="BlogBanner">
+        <div class="full_width bannerContent">
+            <div class="bannerImg">
+                <img src="images/blog_img3.jpg" alt=""/>
+            </div>
+            <h2>
+                To MySelf
+                <span>"Writing Is The Only Way I Have To Explain My Own Life"</span>
+            </h2>
+            <div class="buttonDiv full_width">
+                <a href="images/TAUPHIK_interview.docx" class="btnLink waves-effect waves-light btn" download>download resume</a>
+            </div>
+        </div>
+    </div>
+    <div class="full_width AboutMainBlock BlogMainBlock">
+        <div class="container">
+            <h3>Latest <span>blogs</span></h3>
+            <div class="full_width">
+                <div class="blogMainLeft">
+                    <ul class="full_width alignCenter">
+                        <li class="full_width active" ng-repeat="blogs in BlogData" on-finish-render="ngRepeatFinished">
+                            <a href="javascript:void(0)">
+                                <div class="blogImg full_width">
+                                    <img src="{{blogs.BlogImage}}" alt=""/>
+                                </div>
+                                <div class="blogDiscription full_width">
+                                    <h4>{{blogs.BlogHeading}}</h4>
+                                    <p>{{blogs.BlogDiscription}}</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="buttonDiv full_width">
+                        <a href="javascript:void(0)" class="btnLink waves-effect waves-light btn" ng-click="showMoreBtn()">show more</a>
+                    </div>
+                </div>
+                <div class="blogMainRight">
+                    <div class="full_width blogMainRightSelf">
+                        <img src="images/home_img.jpg" alt=""/>
+                        <h4 class="full_width"> Tauphik Ahamad <span>front End Web Developer</span></h4>
+                    </div>
+                    <div class="full_width recentPostList">
+                        <p>This whole website is design and developed by me, Professionally i'm a software developer (Front end web developer). Working for an US Based MNC. The motive of this website is to share my knowledge to everyone.</p>
+                        <h4>Recent Post</h4>
+                        <ul class="full_width">
+                            <li class="full_width">
+                                <a href="javascript:void(0)" class="full_width">
+                                    <div class="recentPostLeft">
+                                        <img src="images/anantara.jpg" alt=""/>
+                                    </div>
+                                    <div class="recentPostRight">
+                                        <h5>Recent Post</h5>
+                                        <p>Recent Post Discription</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="full_width">
+                                <a href="javascript:void(0)" class="full_width">
+                                    <div class="recentPostLeft">
+                                        <img src="images/anantara.jpg" alt=""/>
+                                    </div>
+                                    <div class="recentPostRight">
+                                        <h5>Recent Post</h5>
+                                        <p>Recent Post Discription</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="full_width">
+                                <a href="javascript:void(0)" class="full_width">
+                                    <div class="recentPostLeft">
+                                        <img src="images/anantara.jpg" alt=""/>
+                                    </div>
+                                    <div class="recentPostRight">
+                                        <h5>Recent Post</h5>
+                                        <p>Recent Post Discription</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="full_width">
+                                <a href="javascript:void(0)" class="full_width">
+                                    <div class="recentPostLeft">
+                                        <img src="images/anantara.jpg" alt=""/>
+                                    </div>
+                                    <div class="recentPostRight">
+                                        <h5>Recent Post</h5>
+                                        <p>Recent Post Discription</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="full_width">
+                                <a href="javascript:void(0)" class="full_width">
+                                    <div class="recentPostLeft">
+                                        <img src="images/anantara.jpg" alt=""/>
+                                    </div>
+                                    <div class="recentPostRight">
+                                        <h5>Recent Post</h5>
+                                        <p>Recent Post Discription</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="full_width">
+                                <a href="javascript:void(0)" class="full_width">
+                                    <div class="recentPostLeft">
+                                        <img src="images/anantara.jpg" alt=""/>
+                                    </div>
+                                    <div class="recentPostRight">
+                                        <h5>Recent Post</h5>
+                                        <p>Recent Post Discription</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="full_width">
+                                <a href="javascript:void(0)" class="full_width">
+                                    <div class="recentPostLeft">
+                                        <img src="images/anantara.jpg" alt=""/>
+                                    </div>
+                                    <div class="recentPostRight">
+                                        <h5>Recent Post</h5>
+                                        <p>Recent Post Discription</p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="full_width needHelp">
+    <div class="container">
+        <h6>Have a creative design and need help...?</h6>
+        <a href="#!/contact" class="waves-effect waves-light btnLink btn">Contact Me Today</a>
+    </div>
+</div>

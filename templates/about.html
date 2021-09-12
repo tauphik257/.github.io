@@ -1,0 +1,84 @@
+<div class="full_width" ng-controller="AboutCtrl" ng-repeat="AboutData in aboutPage">
+    <div class="AboutBanner">
+        <div class="full_width bannerContent">
+            <div class="bannerImg">
+                <img src="images/png_img2.jpg" alt=""/>
+            </div>
+            <h2>
+                Let's More About Me
+                <span>"I Like To Reinvent Myself - It's Part Of My Job.."</span>
+            </h2>
+        </div>
+    </div>
+    <div class="full_width AboutMainBlock">
+        <div class="container">
+            <h3>Technical <span>skills</span></h3>
+            <div class="row">
+                <div class="col s6 center-align">
+                    <h4>TECHNOLOGIES</h4>
+                </div>
+                <div class="col s6 left-align">
+                    <h5>DAY-TO-DAY EXPERTISE</h5>
+                    <ul class="full_width techSkill">
+                        <li class="full_width" ng-repeat="techSkill in AboutData.Technology">{{techSkill.techName}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="full_width AboutMainBlock">
+        <div class="container">
+            <h3>Work <span>Experience</span></h3>
+            <ul class="full_width">
+                <li class="full_width workExp" ng-repeat="workExp in AboutData.Industry">
+                    <div class="workExpLeft">
+                        <h5>{{workExp.duration}}</h5>
+                        <h4>{{workExp.companyName}}</h4>
+                    </div>
+                    <div class="workExpRight">
+                        <h4>{{workExp.designation}}</h4>
+                        <p>{{workExp.discription1}}</p>
+                        <p>{{workExp.discription2}}</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="full_width AboutMainBlock eduDetails">
+        <div class="container">
+            <h3>Educational <span>Details</span></h3>
+            <ul class="collapsible popout" data-collapsible="accordion">
+                <li ng-repeat="eduDetail in AboutData.Education">
+                    <div class="collapsible-header">
+                        <h4><span>{{eduDetail.degreeDuration}}</span> {{eduDetail.degree}}</h4>
+                    </div>
+                    <div class="collapsible-body">
+                        <h4>{{eduDetail.institute}}</h4>
+                        <p>{{eduDetail.discription}}</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="full_width AboutMainBlock">
+        <div class="container">
+            <h3>A Tribute To <span>My Father</span></h3>
+            <ul class="AboutFather full_width">
+                <li class="center-align">
+                    <img src="images/abbu3.jpg" alt="" class="circle"/>
+                    <p>Iliyas Mohammad</p>
+                </li>
+                <li class="left-align">
+                    <p>I Really Do't know what to say about my father, just mean that we love him. My father has taught me the importance of hard work and sacrifice not only his word but through his example.</p>
+                    <P class="right-align">Thank You Abbu..</P>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="full_width needHelp">
+        <div class="container">
+            <h6>Have a creative design and need help...?</h6>
+            <a href="#!/contact" class="waves-effect waves-light btnLink btn">Contact Me Today</a>
+        </div>
+    </div>
+</div>

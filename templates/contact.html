@@ -1,0 +1,79 @@
+<div class="full_width" ng-controller="ContactCtrl">
+    <div class="ContactBanner">
+        <div class="full_width bannerContent">
+            <div class="bannerImg">
+                <img src="images/contact_img3.jpg" alt=""/>
+            </div>
+            <h2>
+                Say Hello to Me
+                <span>"Need Help Say Hello to Me.."</span>
+            </h2>
+            <div class="buttonDiv full_width">
+                <a href="images/TAUPHIK_interview.docx" class="btnLink waves-effect waves-light btn" download>download resume</a>
+            </div>
+        </div>
+    </div>
+    <div class="full_width AboutMainBlock ContactMainBlock">
+        <div class="container">
+            <h3>Contact <span>Information</span></h3>
+            <div class="full_width valign-wrapper">
+                <div class="aboutMyself_left">
+                    <img src="images/contact_img2.jpg" alt=""/>
+                </div>
+                <div class="aboutMyself_right">
+                    <h4>Hi I'm <span>Tauphik ahamad</span></h4>
+                    <p>I am a Front End Developer based in Delhi India. I specialize in designing and developing user interface. Experienced with all stages of the development cycle for web projects.</p>
+                    <h4><span>Address:</span></h4>
+                    <p>Anmol Residency, Sector-73, Noida India.</p>
+                    <p>Mob: 7838418994</p>
+                    <p>Email: hello@tauphik.com</p>
+                    <a href="#!/portfolio" class="waves-effect waves-light btnLink btn">See My Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="full_width AboutMainBlock">
+        <div class="container">
+            <h3>Contact <span>Me</span></h3>
+            <div class="full_width ContactForm">
+                <form class="form-inline" role="form" method="post" action="">
+                    <div class="input-field full_width">
+                        <input id="name2" name="name" type="text" class="validate full_width" required="" aria-required="true">
+                        <label for="name2" class="full_width left-align">Full Name</label>
+                    </div>
+                    <div class="input-field full_width">
+                        <input id="mobN" type="text" name="phone" class="validate full_width" required="" aria-required="true">
+                        <label for="mobN" class="full_width left-align">Number</label>
+                    </div>
+                    <div class="input-field full_width">
+                        <input id="email" type="email" name="email" class="validate full_width" required="" aria-required="true">
+                        <label for="email" class="full_width left-align">Email</label>
+                    </div>
+                    <div class="input-field full_width">
+                        <input id="subj" type="text" name="subject" class="validate full_width" required="" aria-required="true">
+                        <label for="subj" class="full_width left-align">Subject</label>
+                    </div>
+                    <div class="input-field full_width">
+                        <textarea id="textAria" name="message" class="materialize-textarea"></textarea>
+                        <label for="textAria">Message</label>
+                    </div>
+                    <div class="buttonDiv full_width">
+                        <button type="button" class="btnLink waves-effect waves-light btn" ng-click="submitBtnFn()">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="full_width needHelp">
+        <div class="container">
+            <h6>Have a creative design and need help...?</h6>
+            <a href="#!/contact" class="waves-effect waves-light btnLink btn">Contact Me Today</a>
+        </div>
+    </div>
+<!--    <div class='MessageSend'>
+        <div class='SendContainer'>
+            <h5>Message Send..!!!</h5>
+            <a href='javascript:void(0)' class='waves-effect waves-light btnLink btn OkButton'>Ok</a>
+        </div>
+    </div>-->
+</div>

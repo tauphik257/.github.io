@@ -1,0 +1,57 @@
+{
+    "AboutPage":[
+            {
+                "Technology":[
+                    {"techName":"Javascript / JQuery"},
+                    {"techName":"Angular JS"},
+                    {"techName":"Wordpress"},
+                    {"techName":"Google Material Design"},
+                    {"techName":"Less / Sass"},
+                    {"techName":"HTML5 / CSS3"},
+                    {"techName":"Bootstrap"},
+                    {"techName":"Responsive Layout And Design"},
+                    {"techName":"Cross Browser Compatibility"},
+                    {"techName":"Mobile First Thinking"},
+                    {"techName":"Wordpress Theme Customization"},
+                    {"techName":"Photoshop / Sketch"}
+                ],
+                "Industry":[
+                    {"companyName":"Compunnel Software Group Inc.",
+                        "duration":"2016 - Now",
+                        "designation":"Web Developer",
+                        "discription1":"Working in excellence environment with eminence and joyful team. Experienced in working on the various phases of Software Development Life Cycle like requirements, analysis, design, coding, testing, and debugging the websites and software products.",
+                        "discription2":"Developed the creative web portal and produts by using JavaScript, jQuery with  Google Material UI-Framework. Project's are being run in an Agile methodology. "
+                    },
+                    {"companyName":"Vinove Software and Services Pvt. Ltd.",
+                        "duration":"2015 - 2016",
+                        "designation":"Software Developer",
+                        "discription1":"Work full time job in a disciplined environment with wonderful colleagues. Develops large scale website's as well as small scale website's too. Build project's on a strict 2-3 week deadline.",
+                        "discription2":"Project's are being run in an Agile methodology. Convert PSD's design into static web page's or into wordpress as per client request. Primary code utilization include HTML5, CSS3, jQuery, Sass, Bootstrap, Wordpress. Use GIT / SVN for version control."
+                    }
+                ],
+                "Education":[
+                    {"degree":"B. TECH IN COMPUTER SCIENCE AND ENGINEERING",
+                        "degreeDuration":"2010 - 2014",
+                        "institute":"Ideal Institute of Technology Ghaziabad",
+                        "discription":"This is the place which give me a professional environment and a professional education. This is the one of the place where i learnt lot's of new things. Spent most memorable day's of my life."
+                    },
+                    {"degree":"advanced java web certification",
+                        "degreeDuration":"2013 - 2014",
+                        "institute":"oracle workforce development program",
+                        "discription":"Get the Advance Java web certification from Oracle University Workforce Development Program, This training program is organised by the college. here i started my passion in javaScript and decided to make my career in javaScript Web."
+                    },
+                    {"degree":"HIGHER SECONDARY SCHOOL",
+                        "degreeDuration":"2006 - 2008",
+                        "institute":"National Inter College (NIC) Allahabad",
+                        "discription":"This is the second step of my life, Here i enjoyed the project's and assignment's pressure."
+                    },
+                    {"degree":"HIGH SCHOOL",
+                        "degreeDuration":"2006",
+                        "institute":"R L M H S S Allahabad",
+                        "discription":"Know one can forgot there school life. Yes this the first step of my life to move in to a professional environment. Sweet and innocent day's of my life."
+                    }
+                    
+                ]
+            }
+    ]
+}

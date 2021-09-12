@@ -1,0 +1,98 @@
+<div ng-controller="MainCtrl">
+    <div class="homeBanner">
+        <div class="bannerContent">
+            <div class="bannerImg">
+                <img src="images/home_img.jpg" alt="" class="wow bounceInUp" />
+            </div>
+            <h2>
+                <label
+                    class="zoomText">T</label><label>a</label><label>u</label><label>p</label><label>h</label><label>i</label><label>k</label>
+                <label>A</label><label>h</label><label>a</label><label>m</label><label>a</label><label>d</label>
+                <span>Technical Analyst | Freelancer from India</span>
+            </h2>
+        </div>
+        <div class="mouseCursor"></div>
+    </div>
+    <div class="full_width bkg_snapshot">
+        <h3>Background <span>Snapshot</span></h3>
+        <p class="fullParaText">My interest in web application development stemmed from my passion for creative design and
+            development with <b>React JS</b>. I admittedly spend most of my time in front of a screen some of my passion are writing less
+            clean professional and modern coding standard, creating well thought user experience and filling up a fresh cup of
+            coffee.</p>
+    </div>
+    <div class="full_width AboutMainBlock">
+        <div class="container">
+            <h3>Technical <span>skills</span></h3>
+            <div class="row">
+                <div class="col s6 center-align">
+                    <h4>TECHNOLOGIES</h4>
+                </div>
+                <div class="col s6 left-align">
+                    <h5>DAY-TO-DAY EXPERTISE</h5>
+                    <ul class="full_width techSkill">                        
+                        <li class="full_width">React JS</li>
+                        <li class="full_width">React Redux</li>
+                        <li class="full_width">Redux-Saga</li>
+                        <li class="full_width">JavaScript</li>
+                        <li class="full_width">Advance Javascript</li>
+                        <li class="full_width">TypeScript</li>
+                        <li class="full_width">JQuery</li>
+                        <li class="full_width">Google Material Design</li>
+                        <li class="full_width">Less / Sass</li>
+                        <li class="full_width">HTML5 / CSS3</li>
+                        <li class="full_width">Bootstrap</li>
+                        <li class="full_width">Responsive Layout And Design</li>
+                        <li class="full_width">Cross Browser Compatibility</li>
+                        <li class="full_width">Mobile First Thinking</li>
+                        <li class="full_width">Wordpress Theme Customization</li>
+                        <li class="full_width">Wordpress Theme Development</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="full_width fresh_project">
+        <div class="container">
+            <h3>My <span>Projects</span></h3>
+            <div class="customSlider">
+                <ul class="customSlider_list full_width owl-carousel">
+                    <li class="card" ng-repeat="slider_data in sliderData" on-finish-render="ngRepeatFinished">
+                        <div class="card_image full_width">
+                            <img src="{{slider_data.image}}" alt="images" />
+                        </div>
+                        <div class="card_content full_width">
+                            <h5>{{slider_data.para}}</h5>
+                            <p>{{slider_data.heading}}</p>
+                            <a href="#!/portfolio" class="btnLink waves-effect waves-light btn" target="_blank">View
+                                More</a>
+                        </div>
+                    </li>
+                </ul>
+                <strong>{{content}}</strong>
+                <a href="#!/portfolio" class="waves-effect waves-light btnLink btn">View More Project</a>
+            </div>
+        </div>
+    </div>
+    <div class="full_width aboutMyself">
+        <h3>About <span>me</span></h3>
+        <div class="container">
+            <div class="aboutMyself_left">
+                <img src="images/img44.jpg" alt="" />
+            </div>
+            <div class="aboutMyself_right">
+                <h4>Hi I'm <span>Tauphik ahamad</span></h4>
+                <p>I am a Front End Developer based in Delhi India. I specialize in designing and developing user
+                    interface. Experienced with all stages of the development cycle for dynamic web projects.</p>
+                <p>I have a strong passion for learning new technologies, programming languages and there
+                    implementation, "I Like To Reinvent Myself - It's Part Of My Job".</p>
+                <a href="#!/about" class="waves-effect waves-light btnLink btn">Know More About Me</a>
+            </div>
+        </div>
+    </div>
+    <div class="full_width needHelp">
+        <div class="container">
+            <h6>Have a creative design and need help...?</h6>
+            <a href="#!/contact" class="waves-effect waves-light btnLink btn">Contact Me Today</a>
+        </div>
+    </div>
+</div>
