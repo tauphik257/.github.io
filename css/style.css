@@ -294,6 +294,7 @@ li.workExp:hover .workExpRight{border: 2px solid #752828;}
 .jsFiddle iframe{width: 100%;height: 300px;}
 .jsFiddle iframe pre{height: 300px;}
 
+.customSlider_list{display: flex;align-items: start;height: 25em;}
 
 /** all key frame **/
 @keyframes mouse {
@@ -392,7 +393,8 @@ li.workExp:hover .workExpRight{border: 2px solid #752828;}
     .recentPostList > p{font-size: 1.3em;}
     .AboutMainBlock .s6.center-align{width: 40%;}
     .AboutMainBlock .s6.left-align{width: 60%;}
-    
+    .customSlider_list{flex-wrap: wrap;height: auto;}
+    .customSlider_list li{margin-bottom: 1em;}
 }
 @media only screen and (max-width:767px) and (orientation : landscape){
     .bannerContent .buttonDiv{display: none;}
