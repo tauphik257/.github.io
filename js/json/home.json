@@ -14,21 +14,6 @@
                 "image":"images/evolva.jpg",
                 "heading":"Evolva",
                 "para":"Project Name"
-            },
-            {
-                "image":"images/bracknell_p.jpg",
-                "heading":"Bracknell",
-                "para":"Project Name"
-            },
-            {
-                "image":"images/dental_equipment.jpg",
-                "heading":"Dental Equipment",
-                "para":"Project Name"
-            },
-            {
-                "image":"images/life_senior.jpg",
-                "heading":"Life Senior",
-                "para":"Project Name"
             }
     ]
 }
